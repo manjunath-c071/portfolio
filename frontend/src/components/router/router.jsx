@@ -6,9 +6,10 @@ import App from '../../App.jsx';
 //importing the pages to be linked in the router
 
 import HomePage from '../../pages/Home/HomePage'
-import AboutPage from '../../pages/About/AboutPage' 
+import AboutPage from '../../pages/About/AboutPage'
 import PortfolioPage from '../../pages/Portfolio/PortfolioPage'
-// import ContactPage from '../../pages/Contact/ContactPage'
+import SkillsPage from '../../pages/Skills/SkillPage';
+import ContactPage from '../../pages/Contact/ContactPage'
 
 
 // generating the router object providing array of 'path - page' pairs.
@@ -32,6 +33,14 @@ const my_router = createBrowserRouter(
                     path: "/portfolio",
                     element: <PortfolioPage />
                 },
+                {
+                    path: "/Skills",
+                    element: <SkillsPage />
+                },
+                {
+                    path:"/Contact",
+                    element:<ContactPage />
+                }
                 
             ]
         }

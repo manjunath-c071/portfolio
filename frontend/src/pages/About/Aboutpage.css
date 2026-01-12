@@ -1,1 +1,30 @@
+.home {
+  min-height: 100vh;
+  background: #2f3640;
+  display: flex;
+  align-items: center;
+}
 
+.home-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 0 80px;
+}
+
+.home-image img {
+  width: 300px;
+}
+
+.home-content h2 span {
+  color: #00e5ff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #00e5ff;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}

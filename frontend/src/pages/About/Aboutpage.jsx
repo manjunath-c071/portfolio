@@ -1,7 +1,9 @@
-import "./Aboutpage.css"
+import "./AboutPage.css"
+import profile from '../../assets/image/Profile.png'
 
 
-export default function AboutPage() {
+
+function AboutPage () {
     return (
         <>
           <section className="home">
@@ -11,6 +13,7 @@ export default function AboutPage() {
         <div className="home-image">
           <div className="hexagon">
             <img src={profile} alt="Manjunathgouda" />
+           
           </div>
         </div>
 
@@ -37,3 +40,5 @@ export default function AboutPage() {
         </>
     )
 }
+
+export default AboutPage

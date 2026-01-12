@@ -1,0 +1,90 @@
+.contact {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1b1f27, #232a34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+/* Heading */
+.heading {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+}
+
+.heading span {
+  color: #00f2ff;
+}
+
+/* Form */
+.contact form {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Input rows */
+.input-box {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Inputs */
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 1.2rem 1.4rem;
+  background: #2f3744;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Placeholder */
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #9aa4b2;
+}
+
+/* Textarea */
+.contact textarea {
+  resize: none;
+  height: 220px;
+}
+
+/* Button */
+.btn {
+  align-self: center;
+  padding: 0.9rem 2.5rem;
+  border-radius: 50px;
+  background: #00f2ff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 0 15px #00f2ff;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 0 30px #00f2ff;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .input-box {
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+}

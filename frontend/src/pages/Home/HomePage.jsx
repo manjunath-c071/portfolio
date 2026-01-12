@@ -3,6 +3,7 @@ import "./HomePage.css"
 import profile from '../../assets/image/profile.png'
 
 const Home = () => {
+
   return (
     <section className="home">
       <div className="home-left">

@@ -5,6 +5,8 @@ import './App.css'
 
 import HomePage from './pages/Home/HomePage.jsx'
 import AboutPage from './pages/About/AboutPage.jsx'
+import SkillsPage from './pages/Skills/SkillPage.jsx'
+import ContactPage from "./pages/Contact/ContactPage.jsx"
 
 import Navbar from './components/Navbar/Navbar.jsx' 
 import Footer from './components/Footer/Footer.jsx'
